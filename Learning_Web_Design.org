@@ -1,0 +1,347 @@
+# -*- mode:org; -*-
+
+#+title:Learning Web Design
+#+subtitle:{{{date}}} {{{version}}}
+#+date:2019-09-24 23:41
+#+macro:version Version 0.0.1
+
+* HTML
+
+** A Simple Page
+
+*** Step 1---Content
+
+*** Step 2---Document Structure
+
+*** Step 3---Identify Text Elements
+
+*** Step 4---Add an Image
+
+*** Step 5---Style Sheet
+
+*** Validating
+
+*** Document Setup Elements
+
+** Marking Text
+
+*** Paragraphs
+
+*** Headings
+
+*** Thematic Breaks
+
+*** Lists
+
+*** Content Elements
+
+*** Organizing Page Content
+
+*** Inline Elements
+
+*** Generic Elements
+
+*** Improving Accessibility
+
+*** Character Escapes
+
+*** Text Elements
+
+** Adding Links
+
+*** HREF Attribute
+
+*** Linking to Pages
+
+*** Linking within Site
+
+*** Targeting New Window
+
+*** Mail Links
+
+*** Telephone Links
+
+*** Link Elements
+
+** Adding Images
+
+*** Image Formats
+
+*** IMG Element
+
+*** SVG Images
+
+*** Responsive Image Markup
+
+*** Image Elements
+
+** Table Markup
+
+*** How to use Tables
+
+*** Minimal Table Structure
+
+*** Table Headers
+
+*** Spanning Cells
+
+*** Table Accessibility
+
+*** Row and Colum Groups
+
+*** Table Elements
+
+** Forms
+
+*** How Forms Work
+
+*** The FORM Element
+
+*** Variables and Content
+
+*** Form Control
+
+*** Form Accessibility
+
+*** Form Layout and Design
+
+*** Form Elements
+
+** Embedded Media
+
+*** Window in a Window---iFrame
+
+*** Multipurpose Embedder---Object
+
+*** Video and Audio
+
+*** Canvas
+
+*** Embedded Media Elements
+
+* CSS
+
+** Cascading Style Sheets
+
+*** How Style Sheets Work
+
+*** Big Concepts
+
+*** CSS Units of Measurement
+
+*** Developer Tools in the Browser
+
+*** Moving Forward
+
+** Formatting Text
+
+*** Basic Font Properties
+
+*** Advanced Typography
+
+*** Changing Text Color
+
+*** Selector Types
+
+*** Text Line Adjustments
+
+*** Underlines and Decorations
+
+*** Changing Capitalization
+
+*** Spaced Out
+
+*** Text Shadow
+
+*** Changing List Bullets and Numbers
+
+*** Font and Text Properties
+
+** Colors and Backgrounds
+
+*** Specifying Color Values
+
+*** Foreground Color
+
+*** Background Color
+
+*** Clipping the Background
+
+*** Playing with Opacity
+
+*** Pseudo-Class Selectors
+
+*** Pseudo-Element Selectors
+
+*** Attribute Selectors
+
+*** Background Images
+
+*** The Shorthand Background Property
+
+*** Gradients
+
+*** External Style Sheets
+
+*** Color and Background Properties
+
+** The Box
+
+*** The Element Box
+
+*** Box Dimensions
+
+*** Padding
+
+*** Borders
+
+*** Margins
+
+*** Assigning Display Types
+
+*** Box Drop Shadows
+
+*** Box Properties
+
+** Floating and Positioning
+
+*** Normal Flow
+
+*** Floating
+
+*** Fancy Text Wrap
+
+*** Positioning Basics
+
+*** Relative Positioning
+
+*** Absolute Positioning
+
+*** Fixed Positioning
+
+*** Floating and Positioning Properties
+
+** Flexbox and Grid
+
+*** Flexible Boxes with Flexbox
+
+*** Grid Layout
+
+*** Layout Properties
+
+** Responsive Web Design
+
+*** Why RWD
+
+*** The Responsive Recipe
+
+*** Choosing Breakpoints
+
+*** Designing Responsively
+
+*** Testing
+
+*** RWD Resources
+
+** Transitions Transforms Animation
+
+*** CSS Transitions
+
+*** CSS Transforms
+
+*** Keyframe Animation
+
+*** Transitions Transforms Animation
+
+** CSS Techniques
+
+*** Styling Forms
+
+*** Styling Tables
+
+*** Reset and Normalize
+
+*** Image Replacement Techniques
+
+*** CSS Sprites
+
+*** CSS Feature Detection
+
+*** Table Properties
+
+** Modern Web Development Tools
+
+*** CSS Power Tools
+
+*** Build Tools---Grunt and Gulp
+
+*** Version Control---Git and GitHub
+
+* JavaScript
+
+** Introduction to JavaScript
+
+*** Adding JavaScript
+
+*** Anatomy of a Script
+
+*** Browser Object
+
+*** Events
+
+** Using JavaScript
+
+*** The DOM
+
+*** Polyfills
+
+*** JavaScript Libraries
+
+* Web Images
+
+** Web Image Basics
+
+*** Image Sources
+
+*** The Formats
+
+*** Image Size and Resolution
+
+*** Image Asset Resolution
+
+*** Favicons
+
+** Image Asset Production
+
+*** Saving Images in Web Formats
+
+*** Working with Transparency
+
+*** Responsive Image Production Tips
+
+*** Image Optimization
+
+** SVG
+
+*** Drawing with XML
+
+*** Features of SVG as XML
+
+*** SVG Tools
+
+*** SVG Production Tips
+
+*** Responsive SVGs
+
+*** SVG Explorations
+
+* Index                                                            :noexport:
+:PROPERTIES:
+:index:    cp
+:END:
+* Local Variables
+# Local Variables:
+# time-stamp-pattern:"8/^\\#\\+date:%4y-%02m-%02d %02H:%02M$"
+# fill-column:79
+# eval: (org-indent-mode)
+# End:
