@@ -2,8 +2,82 @@
 
 #+title:Learning Web Design
 #+subtitle:{{{date}}} {{{version}}}
-#+date:2019-09-24 23:41
-#+macro:version Version 0.0.1
+#+date:2019-09-24 23:57
+#+macro:version Version 0.0.2
+
+* Introduction
+** Web Design Software Tools
+*** Virtual Machine Products
+- [[https://vmware.com/fusion][VMFusion]]
+
+- [[https://virtualbox.org][Oracle VirtualBox]]
+
+*** Coding Tools
+- Sublime Text
+
+- Atom
+
+- Brackets
+
+- CodeKit
+
+- Adobe Dreamweaver
+
+- Coda
+
+- Microsoft Visual Studio
+
+*** User Interface and Layout Tools
+- Sketch
+
+- Affinity Designer
+
+- Adobe XD
+
+- Figma
+
+- UXPin
+
+*** Web Graphic Creation Tools
+- Adobe Creative Cloud
+  - Photoshop
+  - Illustrator
+
+- GIMP
+
+- Corel PaintShop Pro
+
+- Corel Draw
+
+- Pixelmator
+
+- SumoPaint
+
+- Pixlr
+
+*** Browsers
+- Chrome
+
+- Firefix
+
+- MS Edge
+
+- Internet Explorer
+
+- Safari
+
+- Opera
+
+*** File Management and Transfer Tools
+- Filezilla
+
+- Cyberduck
+
+- WinSCP
+
+- Transmit
+
+- Cygwin
 
 * HTML
 
@@ -339,6 +413,21 @@
 :PROPERTIES:
 :index:    cp
 :END:
+* Macro Definitions                                                :noexport:
+* Options                                                          :noexport:
+#+option: H:4
+
+* Export Options                                                   :noexport:
+** Texinfo Export Options
+#+texinfo_filename:learning_web_design.info
+#+texinfo_class: info
+#+texinfo_header:
+#+texinfo_post_header:
+#+texinfo_dir_category:Web Design
+#+texinfo_dir_title:Learning Web Design
+#+texinfo_dir_desc:Web Design using HTML, CSS, and JavaScript
+#+texinfo_printed_title:Learning Web Design
+
 * Local Variables
 # Local Variables:
 # time-stamp-pattern:"8/^\\#\\+date:%4y-%02m-%02d %02H:%02M$"
