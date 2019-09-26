@@ -2,8 +2,8 @@
 
 #+title:Learning Web Design
 #+subtitle:{{{date}}} {{{version}}}
-#+date:2019-09-24 23:57
-#+macro:version Version 0.0.2
+#+date:2019-09-26 00:17
+#+macro:version Version 0.0.3
 
 * Introduction
 ** Web Design Software Tools
@@ -78,6 +78,62 @@
 - Transmit
 
 - Cygwin
+** Anatomy of a Web Page
+A minimal web page is assembled from separate files:
+
+- HTML document (~index.html~)
+
+- Style sheet (~styles.css~)
+
+- Resources (~resources.png~)
+*** HTML Documents
+Text documents containing tags and content.
+
+#+begin_src html :tangle Jens/index.html :mkdirp yes
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Jen's Kitchen</title>
+      <link href="kitchen.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+      <h1><img alt="food illustration" src="foods.png" /></h1>
+      <p>If you love to read about <strong>cooking and eating</strong>,
+      would like to learn about some of the best restaurents in the
+      world, or just want a few choice recipes to add to your
+      collection, <em>this is the site for you!</em></p>
+      <p><img alt="spoon illustration" src="foods.png" /></p>
+      <hr /><small>Copyright 2018</small>
+    </body>
+  </html>
+#+end_src
+
+#+begin_src css :tangle Jens/styles/styles.css :mkdirp yes
+  body {
+      font: normal 1 em Verdana;
+      width: 80%;
+      margin: 1em auto;
+  }
+
+  h1 {
+      font: italic 3dm Georgia;
+      color: rgb(23, 109, 109);
+      margin: 1em 0 1em;
+  }
+
+  img {
+      margin: 0 20px 0 0;
+  }
+
+  h1 img {
+      margin-bottom: -20px;
+  }
+
+  small {
+      color: #666666;
+  }
+#+end_src
 
 * HTML
 
@@ -408,6 +464,13 @@
 *** Responsive SVGs
 
 *** SVG Explorations
+
+* Tangle
+
+#+header: :results silent :exports results
+#+begin_src emacs-lisp
+(org-babel-tangle-file "Learning_Web_Design.org")
+#+end_src
 
 * Index                                                            :noexport:
 :PROPERTIES:
